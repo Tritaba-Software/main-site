@@ -1,13 +1,10 @@
 let stringarr = [
-  "Custom Websites",
-  "Software Consultation",
-  "Bots and APIs",
-  "Website Redesigns",
-  "DNS/SSL Setup",
-  "Website Repair",
-  "Artificial Intelligence",
-  "Software Experiments",
-  "Games",
+  "Website Management",
+  "Consulting",
+  "Search Engine Optimization",
+  "E-Commerce (including Shopify and Wix)",
+  "Website Design",
+  "your next project?",
 ];
 
 // Randomize the array

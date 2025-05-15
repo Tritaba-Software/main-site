@@ -1,17 +1,17 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
 
 .bg-only {
-  background: rgb(60, 11, 145);
+  background: #833ab4;
   background: linear-gradient(
-    138deg,
-    rgba(60, 11, 145, 1) 0%,
-    rgba(72, 31, 184, 1) 35%,
-    rgba(255, 0, 69, 1) 100%
+    90deg,
+    rgba(131, 58, 180, 1) 0%,
+    rgba(253, 29, 29, 1) 50%,
+    rgba(252, 176, 69, 1) 100%
   );
   background-repeat: no-repeat;
 }
 .navbar-raeedchat {
-  font-size: 1rem;
+  font-size: 1.1rem;
   padding: 1.2%;
   margin: 0;
   color: white;
@@ -25,7 +25,21 @@
   display: inline;
   margin: 10px;
 }
-
+.mobile-only {
+  display: none;
+}
+@media only screen and (max-width: 768px) {
+  .nav-list {
+    display: none;
+  }
+  .mobile-only {
+    display: block;
+  }
+}
+.mobile-links a {
+  text-decoration: none;
+  cursor: pointer;
+}
 .logo-area {
   margin-right: 15px;
   font-size: 1.3rem;
@@ -82,7 +96,7 @@
 }
 
 .btn-cust {
-  background-color: #bb0c0c96;
+  background-color: #07c02696;
   color: white;
   border-radius: 5px;
   padding: 10px;
@@ -94,7 +108,7 @@
 }
 
 .btn-cust:hover {
-  background-color: #bb0c0cb9;
+  background-color: #0cbb40b9;
   color: white;
   border-radius: 5px;
   padding: 10px;
